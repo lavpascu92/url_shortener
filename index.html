@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- SCRIPT -->
+    <script defer src="./src/js/app.js"></script>
+    <title>URL shortner</title>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="header">
+            <img class="header-img" src="./src/media/url.png" alt="">
+            <div class="header-title">URL Shortener</div>
+        </div>
+
+
+        <form id="form" action="/" method="GET" class="form">
+            <input id="text-input" class="form-input-text" type="text" placeholder="Shorten a link here..." required>
+            <input id="submit-input" class="form-input-submit" type="submit" value="Create" title="Create short url">
+            <span id="error-alert" class="error-alert">Please paste a valid link</span>
+        </form>
+
+        <div class="container">
+            <div class="get-short-url">
+                Your URL shortened here:
+                <span id="preloader" class="preloader"> <img class="preloader-img"
+                        src="./src/media/Ellipsis-1.4s-80px (1).gif" alt=""></span>
+                <span id="generated-url"> </span>
+                <button id="copy-btn" class="copy-btn" title="Copy here!">
+                    <img class=" copy-icon" src="./src/media/copy.png" alt="">
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
