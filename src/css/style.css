@@ -41,7 +41,7 @@ body {
 }
 
 .form {
-  background-image: url("./src/media/blue.jpg");
+  background-image: url("../media/blue.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   padding: 32px 72px 12px 72px;
