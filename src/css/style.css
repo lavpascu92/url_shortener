@@ -1,166 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F0F0F0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f0f0f0;
 }
 
 .main-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .header {
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .header-img {
-    width: 80px;
+  width: 80px;
 }
 
 .header-title {
-    font-size: 2.5rem;
-    letter-spacing: 0.4rem;
-    font-weight: 600;
-    font-family: 'Lobster', cursive;
-    color: #282828;
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+  font-weight: 600;
+  font-family: "Lobster", cursive;
+  color: #282828;
 }
 
 .form {
-    background-image: url('/src/media/blue.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 32px 72px 12px 72px;
-    border-radius: 12px;
+  background-image: url("./src/media/blue.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 32px 72px 12px 72px;
+  border-radius: 12px;
 }
 
 .form-input-text {
-    padding: 12px 52px 12px 8px;
-    margin-right: 24px;
-    border-radius: 12px;
-    border: none;
+  padding: 12px 52px 12px 8px;
+  margin-right: 24px;
+  border-radius: 12px;
+  border: none;
 }
 
 /* Error styles START */
 .error {
-    border: 2px solid #ed0f0f;
+  border: 2px solid #ed0f0f;
 }
 
 .error-alert {
-    display: block;
-    padding-top: 4px;
-    color: #ed0f0f;
-    font-size: 0.80rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    visibility: hidden;
+  display: block;
+  padding-top: 4px;
+  color: #ed0f0f;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  visibility: hidden;
 }
 
 .visible {
-    visibility: visible;
+  visibility: visible;
 }
 
 /* Error styles END */
 .form-input-submit {
-    padding: 9px 24px;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-    cursor: pointer;
-    border-radius: 8px;
-    border: 3px solid #fff;
-    color: #fff;
-    background-color: #00a0ee;
-    transition: all 0.4s ease-in-out;
-    outline: none;
+  padding: 9px 24px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  color: #fff;
+  background-color: #00a0ee;
+  transition: all 0.4s ease-in-out;
+  outline: none;
 }
 
 .form-input-submit:hover {
-    background-color: #008eb9;
+  background-color: #008eb9;
 }
 
 .get-short-url {
-    font-size: 1.3rem;
-    letter-spacing: 0.2rem;
-    color: #282828;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  color: #282828;
 }
 
 .preloader {
-    padding: 0 40px;
-    display: none;
+  padding: 0 40px;
+  display: none;
 }
 
 .preloader-img {
-    width: 60px;
-    position: relative;
-    top: 20px;
+  width: 60px;
+  position: relative;
+  top: 20px;
 }
 
 .generated-url-link {
-    font-size: 1.3rem;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 4px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 4px;
 }
 
 .copy-btn {
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .copy-btn:focus {
-    outline: none;
+  outline: none;
 }
 
 .copy-icon {
-    width: 24px;
-    position: relative;
-    top: 4px;
-    margin-left: 4px;
+  width: 24px;
+  position: relative;
+  top: 4px;
+  margin-left: 4px;
 }
 
 /* MEDIA QUERIES FOR PHONE */
 @media only screen and (max-width: 600px) {
-    .header {
-        max-width: 300px;
-    }
+  .header {
+    max-width: 300px;
+  }
 
-    .header-title {
-        font-size: 2rem;
-        padding-left: 20px;
-        text-align: center;
-    }
+  .header-title {
+    font-size: 2rem;
+    padding-left: 20px;
+    text-align: center;
+  }
 
-    .form-input-text {
-        width: 100%;
-    }
+  .form-input-text {
+    width: 100%;
+  }
 
-    .form-input-submit {
-        margin-top: 20px;
-        width: 100%;
-    }
+  .form-input-submit {
+    margin-top: 20px;
+    width: 100%;
+  }
 
-    .get-short-url {
-        text-align: center;
-        font-size: 1rem;
-    }
+  .get-short-url {
+    text-align: center;
+    font-size: 1rem;
+  }
 
-    .generated-url-link {
-        text-align: center;
-        font-size: 1rem;
-    }
+  .generated-url-link {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
