@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -163,4 +163,9 @@ body {
     text-align: center;
     font-size: 1rem;
   }
+}
+.copyright {
+  letter-spacing: 0.2rem;
+  padding-top: 50px;
+  font-size: 0.75rem;
 }
